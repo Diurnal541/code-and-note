@@ -371,7 +371,7 @@ int main() {
 
 
 
-**示例：**
+**示例：**	
 
 ```C++
 //1. 值传递
@@ -407,7 +407,7 @@ int main() {
 	cout << "a:" << a << " b:" << b << endl;
 
 	mySwap03(a, b);
-	cout << "a:" << a << " b:" << b << endl;
+	cout << "a:" << a << " b:" << b << endl; //mySwap02改变了a，b的值，mySwap03将a，b的值改回去
 
 	system("pause");
 
@@ -4759,7 +4759,7 @@ C++中对文件操作需要包含头文件 ==&lt; fstream &gt;==
 
    ofs.close();
 
-   ​
+   
 
 文件打开方式：
 
