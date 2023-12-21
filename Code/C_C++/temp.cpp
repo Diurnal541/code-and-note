@@ -1,47 +1,19 @@
 #include <iostream>
-#include <ctime>
-#include <iomanip>
 using namespace std;
 int main()
 {
-    int n;
-    cout << "请输入班级人数:";
-    cin >> n;
-    int arr[n];
-    srand(time(0));
-    for (int i = 0; i < n;i++)
-    {
-        int num = rand() % 100 + 1;
-        arr[i] = num;
-    }
-    for (int i = 0; i < n;i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    int min = arr[0];
-    for (int i = 0; i < n;i++)
-    {
-        if (arr[i] < min)
-        {
-            min = arr[i];
-        }
-    }
-    for (int i = 0; i < n;i++)
-    {
-        if (min == arr[i])
-        {
-            cout << "成绩最差为:" << min << endl
-                 << "其下标索引为:" << i << endl;
-            break;
-        }
-    }
-    double s = 0.0;
-    for (int i = 0; i < n;i++)
-    {
-        s += arr[i];
-    }
-    double average = static_cast<double>(s) / n;
-    cout << "平均分为:" << fixed << setprecision(2) << average << endl;
+
+    int a = 10;
+    int b = 20;
+    // int &c; //错误，引用必须初始化
+    int &c = a; // 一旦初始化后，就不可以更改
+    c = b;      // 这是赋值操作，不是更改引用
+
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+
+    system("pause");
+
     return 0;
 }
