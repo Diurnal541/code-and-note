@@ -167,6 +167,64 @@ tips:
 
 DCL(Data Control Language)数据**控制**语言，用来定义数据库的访问权限和安全级别，及创建用户
 
+# 约束
+
+1. 约束的概念
+
+   * 约束是作用于表中列上的规则，用于限制加入表的数据
+   * 约束的存在保证了数据库中数据的正确性、有效性和完整性
+
+2. 约束的分类
+
+   | 约束名称 | 描述                                                         | 关键字      |
+   | -------- | ------------------------------------------------------------ | ----------- |
+   | 非空约束 | 保证列中的数据不能有NULL值                                   | NOT NULL    |
+   | 唯一约束 | 保证列中的数据各不相同                                       | UNIQUE      |
+   | 主键约束 | 主键是一行数据的唯一标识，要求非空且唯一                     | PRIMARY KEY |
+   | 检查约束 | 保证列中的值满足某一条件                                     | CHECK       |
+   | 默认约束 | 保存数据时，未指定值则采用默认值                             | DEFAULT     |
+   | 外键约束 | 外键用来让两个表之间的数据之间建立链接，保证数据的一致性和完整性 | FOREIGN KEY |
+
+   **Tips：MySQL不支持检查约束**
+
+   ```mysql
+   CREATE TABLE emp(
+       id INT PRIMARY KEY AUTO_INCREMENT , -- 员工id，主键且自增长
+   	ename VARCHAR(50) NOT NULL UNIQUE , -- 员工姓名，非空且唯一
+   	joindate DATE NOT NULL , -- 入职日期，非空
+   	salary DOUBLE(7, 2) NOT NULL , -- 工资，非空
+   	bonus DOUBLE(7, 2) DEFAULT 0 -- 奖金，如果没有奖金默认为0
+   );
+   ```
+
+   ```mysql
+   -- 创建表时添加约束
+   CREATE TABLE 表名(
+   	列名 数据类型 NOT NULL,
+   	...
+   );
+   -- 建完表之后添加约束
+   ALTER TABLE 表名 MODIFY 字段名 数据类型 NOT NULL;
+   -- 删除约束
+   ALTER TABLE 表名 MODIFY 字段名 数据类型;
+   ```
+
+   ```mysql
+   -- 外键约束
+   CREATE TABLE 表名(
+       列名 数据类型,
+       ...
+       [CONSTRAINT] [外键名称] FOREIGN KEY(外键列名) REFERENCES 主表(主表列名)
+   );
+   ALTER TABLE 表名 ADD CONSTRAINT 外键名称 FOREIGN KEY (外键字段名称) REFERENCES 主表名称(主表列名称);
+   -- 删除约束
+   ALTER TABLE 表名 FOREIGN KEY 外键名称;
+   ```
+
+# 数据库设计
+
+
+
 # SQL注入
 
 ## 系统库释义:
