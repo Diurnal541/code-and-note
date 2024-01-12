@@ -2,5 +2,7 @@
 
 ## nmap扫描
 
+```shell
 sudo nmap -sn 10.10.10.0/24
+```
 
