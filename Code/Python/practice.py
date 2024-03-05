@@ -1,11 +1,8 @@
-# coding=gb2312
-def calculate_alternating_series(n):
-    result = 0
-    for i in range(1, n+1):
-        term = (-1)**(i-1) * (1 / (3*i - 2))
-        result += term
-    return result
-
-# ¼ÆËãÊıÁĞµÄµÚ100Ïî
-result_100 = calculate_alternating_series(100)
-print(result_100)
+# -*- coding: utf-8 -*-
+id = input()
+year = id[6:10]
+month = id[10:12]
+day = id[12:14]
+date1 = str(year) + "å¹´" + str(month) + "æœˆ" + str(day) + "æ—¥"
+date2 = date1.replace(" ","")
+print(date2)
