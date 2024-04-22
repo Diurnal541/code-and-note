@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="106e39ed-50ac-4f8a-a55f-2c410728ee12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Code/C_C++/.idea/C_C++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/PHP/.idea/PHP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/Python/.idea/Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Code/Python/send_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day11 前端开发/gx_day11/.idea/gx_day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day12 前端开发/gx_day12/.idea/gx_day12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day13 前端开发/gx_day13/.idea/gx_day13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day13 前端开发/gx_day13_demo/.idea/gx_day13_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14/.idea/gx_day14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14_web/.idea/gx_day14_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14_website/.idea/gx_day14_website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day15 初识Django/代码/mysite2/.idea/mysite2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day16 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day17 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day18 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day19 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day20 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day11 前端开发/gx_day11/.idea/gx_day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day12 前端开发/gx_day12/.idea/gx_day12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day13 前端开发/gx_day13/.idea/gx_day13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day13 前端开发/gx_day13_demo/.idea/gx_day13_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14/.idea/gx_day14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14_web/.idea/gx_day14_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14_website/.idea/gx_day14_website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day15 初识Django/代码/mysite2/.idea/mysite2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day16 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day17 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day18 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day19 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Python/py-web笔记/课堂笔记/day20 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Web/Python漏洞/flask_code/.idea/flask_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../note/Web/Python漏洞/python_code_audit/.idea/python_code_audit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C++/.idea/C++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/C.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../C/practice.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/.idea/flaskProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/F1@g" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/secret" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/templates/hugh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flaskProject/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/.idea/my_site.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/migrations/0002_department_userinfo_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/app01/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/templates/tpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/templates/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/templates/user_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_site/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/redrock_flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/max_gys_min_gbs.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/max_gys_min_gbs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/output/temp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/output/temp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/output/temp2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/output/temp2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/temp1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/temp1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/temp1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/temp1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/temp2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/temp2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/C_C++/temp2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/C_C++/temp2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Python/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/Python/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Code/Python/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Code/Python/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PHP网盘/src/php/connect_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PHP网盘/src/php/connect_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note/Python/Python笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note/Python/Python笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note/Python/python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note/Web/SQL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../note/Web/sqli-labs.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../note/Web/sqli-labs.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2er8uY1lvhESkrs8yVdbq9gZmOo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Github/Code_and_Note/项目/Pycharm/redrock_flask&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="redrock_flask" type="PythonConfigurationType" factoryName="Python">
+      <module name="redrock_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Github\Code_and_Note\项目\Pycharm\flaskProject\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (flaskProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="106e39ed-50ac-4f8a-a55f-2c410728ee12" name="Changes" comment="" />
+      <created>1712651561402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712651561402</updated>
+      <workItem from="1712651562636" duration="20000" />
+      <workItem from="1712666008568" duration="9000" />
+      <workItem from="1712717894147" duration="1056000" />
+      <workItem from="1712810389686" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/redrock_flask$redrock_flask.coverage" NAME="redrock_flask Coverage Results" MODIFIED="1712718164066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

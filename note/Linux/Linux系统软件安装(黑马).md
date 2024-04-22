@@ -141,7 +141,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    rpm -Uvh http://repo.mysql.com//mysql57-community-release-el7-7.noarch.rpm
    ```
 
-   ![image-20221012182514865](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182514.png)
+   ![image-20221012182514865](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012182514.png)
 
    > 由于MySQL并不在CentOS的官方仓库中，所以我们通过上述rpm命令：
    >
@@ -155,7 +155,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    yum -y install mysql-community-server
    ```
 
-   ![image-20221012182555420](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182556.png)
+   ![image-20221012182555420](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012182556.png)
 
 3. 安装完成后，启动MySQL并配置开机自启动
 
@@ -172,7 +172,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    systemctl status mysqld
    ```
 
-   ![image-20221012182716598](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182716.png)
+   ![image-20221012182716598](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012182716.png)
 
 
 
@@ -189,7 +189,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    grep 'temporary password' /var/log/mysqld.log
    ```
 
-   ![image-20221012182744115](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182744.png)
+   ![image-20221012182744115](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012182744.png)
 
 2. 登陆MySQL数据库系统
 
@@ -203,7 +203,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    # 执行完毕后输入刚刚得到的初始密码，即可进入MySQL数据库
    ```
 
-   ![image-20221012182805966](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012182806.png)
+   ![image-20221012182805966](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012182806.png)
 
 3. 修改root用户密码
 
@@ -260,7 +260,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    netstat -anp | grep 3306
    ```
 
-   ![image-20221012183746802](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012183746.png)
+   ![image-20221012183746802](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012183746.png)
 
 
 
@@ -389,7 +389,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    netstat -anp | grep 3306
    ```
 
-   ![image-20221012192303607](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/12/20221012192303.png)
+   ![image-20221012192303607](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221012192303.png)
 
 
 
@@ -430,7 +430,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb
    ```
 
-   ![image-20221016094103315](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094103.png)
+   ![image-20221016094103315](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094103.png)
 
 2. 配置apt仓库
 
@@ -441,19 +441,19 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
 
    弹出框中选择：`ubuntu bionic` （Ubuntu18.04系统的代号是bionic，选择18.04的版本库用来安装）
 
-   ![image-20221016094142343](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094142.png)
+   ![image-20221016094142343](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094142.png)
 
    弹出框中选择：`MySQL Server & Cluster`
 
-   ![image-20221016094216377](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094216.png)
+   ![image-20221016094216377](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094216.png)
 
    弹出框中选择：`mysql-5.7`
 
-   ![image-20221016094254397](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094254.png)
+   ![image-20221016094254397](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094254.png)
 
    最后选择：`ok`
 
-   ![image-20221016094306917](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094306.png)
+   ![image-20221016094306917](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094306.png)
 
 3. 更新apt仓库的信息
 
@@ -470,7 +470,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    apt-cache policy mysql-server
    ```
 
-   ![image-20221016094546943](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094546.png)
+   ![image-20221016094546943](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094546.png)
 
    看到如图所示字样，即成功
 
@@ -483,11 +483,11 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
 
    弹出框中输入root密码并选择ok，密码任意，课程中以123456代替
 
-   ![image-20221016094941439](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094941.png)
+   ![image-20221016094941439](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094941.png)
 
    再次输入root密码确认
 
-   ![image-20221016094954505](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016094954.png)
+   ![image-20221016094954505](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016094954.png)
 
 6. 启动MySQL
 
@@ -497,7 +497,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    /etc/init.d/mysql status		# 查看状态
    ```
 
-   ![image-20221016095259172](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095259.png)
+   ![image-20221016095259172](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095259.png)
 
 7. 对MySQL进行初始化
 
@@ -511,31 +511,31 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
 
    1. 输入密码：
 
-      ![image-20221016095458755](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095458.png)
+      ![image-20221016095458755](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095458.png)
 
    2. 是否开启密码验证插件，如果需要增强密码安全性，输入`y`并回车，不需要直接回车（课程中选择直接回车）
 
-      ![image-20221016095537716](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095537.png)
+      ![image-20221016095537716](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095537.png)
 
    3. 是否更改root密码，需要输入`y`回车，不需要直接回车（课程不更改）
 
-      ![image-20221016095621386](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095621.png)
+      ![image-20221016095621386](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095621.png)
 
    4. 是否移除匿名用户，移除输入`y`回车，不移除直接回车（课程选择移除）
 
-      ![image-20221016101232827](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101232.png)
+      ![image-20221016101232827](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101232.png)
 
    5. 是否进制root用户远程登录，禁止输入`y`回车，不禁止直接回车（课程选择不禁止）
 
-      ![image-20221016101324577](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101324.png)
+      ![image-20221016101324577](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101324.png)
 
    6. 是否移除自带的测试数据库，移除输入`y`回车，不移除直接回车（课程选择不移除）
 
-      ![image-20221016101404392](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101404.png)
+      ![image-20221016101404392](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101404.png)
 
    7. 是否刷新权限，刷新输入`y`回车，不刷新直接回车（课程选择刷新）
 
-      ![image-20221016101442459](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101442.png)
+      ![image-20221016101442459](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101442.png)
 
 8. 登陆MySQL
 
@@ -544,7 +544,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    # 输入密码即可登陆成功
    ```
 
-   ![image-20221016101524498](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101524.png)
+   ![image-20221016101524498](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101524.png)
 
 
 
@@ -639,31 +639,31 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
 
    1. 输入密码：
 
-      ![image-20221016095458755](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095458.png)
+      ![image-20221016095458755](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095458-171333646363449.png)
 
    2. 是否开启密码验证插件，如果需要增强密码安全性，输入`y`并回车，不需要直接回车（课程中选择直接回车）
 
-      ![image-20221016095537716](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095537.png)
+      ![image-20221016095537716](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095537-171333646733652.png)
 
    3. 是否更改root密码，需要输入`y`回车，不需要直接回车（课程不更改）
 
-      ![image-20221016095621386](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016095621.png)
+      ![image-20221016095621386](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016095621-171333646888555.png)
 
    4. 是否移除匿名用户，移除输入`y`回车，不移除直接回车（课程选择移除）
 
-      ![image-20221016101232827](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101232.png)
+      ![image-20221016101232827](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101232-171333647685958.png)
 
    5. 是否进制root用户远程登录，禁止输入`y`回车，不禁止直接回车（课程选择不禁止）
 
-      ![image-20221016101324577](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101324.png)
+      ![image-20221016101324577](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101324-171333647908161.png)
 
    6. 是否移除自带的测试数据库，移除输入`y`回车，不移除直接回车（课程选择不移除）
 
-      ![image-20221016101404392](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101404.png)
+      ![image-20221016101404392](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101404-171333648051264.png)
 
    7. 是否刷新权限，刷新输入`y`回车，不刷新直接回车（课程选择刷新）
 
-      ![image-20221016101442459](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016101442.png)
+      ![image-20221016101442459](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016101442-171333648190467.png)
 
 9. 重新登陆MySQL（用更改后的密码）
 
@@ -671,7 +671,7 @@ MySQL的安装我们可以通过前面学习的yum命令进行。
    mysql -uroot -p
    ```
 
-   ![image-20221016110414182](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/16/20221016110414.png)
+   ![image-20221016110414182](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221016110414.png)
 
    
 
@@ -718,21 +718,21 @@ Tomcat的安装非常简单，主要分为2部分：
 
    在页面下方找到：
 
-   <img src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017163411.png" alt="image-20221017163411651" style="zoom: 67%;" />
+   <img src="Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017163411.png" alt="image-20221017163411651" style="zoom: 67%;" />
 
    下载`jdk-8u351-linux-x64.tar.gz`
 
-   ![image-20221017163440491](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017163440.png)
+   ![image-20221017163440491](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017163440.png)
 
    ==在弹出的页面中输入Oracle的账户密码即可下载（如无账户，请自行注册，注册是免费的）==
 
 2. 登陆Linux系统，切换到root用户
 
-   ![](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017163607.png)
+   ![](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017163607.png)
 
 3. 通过FinalShell，上传下载好的JDK安装包
 
-   ![image-20221017163706026](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017163706.png)
+   ![image-20221017163706026](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017163706.png)
 
 4. 创建文件夹，用来部署JDK，将JDK和Tomcat都安装部署到：/export/server 内
 
@@ -879,7 +879,7 @@ Tomcat的安装非常简单，主要分为2部分：
    netstat -anp | grep 8080
    ```
 
-   ![image-20221017223814737](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017223814.png)
+   ![image-20221017223814737](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017223814.png)
 
 10. 打开浏览器，输入：
 
@@ -887,7 +887,7 @@ Tomcat的安装非常简单，主要分为2部分：
 
     使用主机名（需配置好本地的主机名映射）或IP地址访问Tomcat的WEB页面
 
-    ![image-20221017223915498](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/17/20221017223915.png)
+    ![image-20221017223915498](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221017223915.png)
 
 
 
@@ -1001,7 +1001,7 @@ Nginx同样需要配置额外的yum仓库，才可以使用yum安装
 
 至此，Nginx安装配置完成。
 
-![image-20221018143113053](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/18/20221018143113.png)
+![image-20221018143113053](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221018143113.png)
 
 
 
@@ -1154,7 +1154,7 @@ RabbitMQ在企业开发中十分常见，课程为大家演示快速搭建Rabbit
 
    http://192.168.88.130:15672
 
-   ![image-20221018154823983](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/18/20221018154824.png)
+   ![image-20221018154823983](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221018154824.png)
 
 
 
@@ -1320,7 +1320,7 @@ Elasticsearch简称es，在企业内同样是一款应用非常广泛的搜索�
 
    浏览器打开：http://ip:9200/?pretty
 
-   ![image-20221025085432335](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025085432.png)
+   ![image-20221025085432335](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025085432.png)
 
 
 
@@ -1354,31 +1354,31 @@ Elasticsearch简称es，在企业内同样是一款应用非常广泛的搜索�
 
 2. 新建文件夹
 
-   ![image-20221025104157628](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104157.png)
+   ![image-20221025104157628](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104157.png)
 
    文件夹起名为：`虚拟机集群`
 
 3. 克隆
 
-   ![image-20221025104131303](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104131.png)
+   ![image-20221025104131303](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104131.png)
 
-   ![image-20221025104312091](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104312.png)
+   ![image-20221025104312091](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104312.png)
 
-   ![image-20221025104329109](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104329.png)
+   ![image-20221025104329109](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104329.png)
 
-   ![image-20221025104345484](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104345.png)
+   ![image-20221025104345484](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104345.png)
 
-   ![image-20221025104414576](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104414.png)
+   ![image-20221025104414576](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104414.png)
 
-   ![image-20221025104427160](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104427.png)
+   ![image-20221025104427160](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104427.png)
 
-   ![image-20221025104432927](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104432.png)
+   ![image-20221025104432927](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104432.png)
 
-   ![image-20221025104446044](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104446.png)
+   ![image-20221025104446044](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104446.png)
 
 4. 同样的操作克隆出：node2和node3
 
-   ![image-20221025104825204](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025104825.png)
+   ![image-20221025104825204](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025104825.png)
 
 5. 开启node1，修改主机名为node1，并修改固定ip为：192.168.88.131
 
@@ -1840,7 +1840,7 @@ Kafka多数都是运行在分布式（集群化）模式下，所以课程将以
    jps
    ```
 
-   ![image-20221025174522487](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/25/20221025174522.png)
+   ![image-20221025174522487](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221025174522.png)
 
 
 
@@ -1918,7 +1918,7 @@ Hadoop生态体系中总共会出现如下进程角色：
 2. node2:Datanode、NodeManager、QuorumPeerMain
 3. node3:Datanode、NodeManager、QuorumPeerMain
 
-![image-20221026202935745](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026202935.png)
+![image-20221026202935745](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026202935.png)
 
 
 
@@ -2846,7 +2846,7 @@ Zabbix 软件能够==监控==众多网络参数和服务器的==健康度、完�
 
 
 
-![1574338996145](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175324.png)
+![1574338996145](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175324.png)
 
 
 
@@ -2900,7 +2900,7 @@ mysql> grant all privileges on *.* to root@'%' identified by 'root';
 
 打开官网下载页面：https://www.zabbix.com/download?zabbix=4.0&os_distribution=centos&os_version=7&db=mysql
 
-![1571981197131](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175330.png)
+![1571981197131](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175330.png)
 
 选择对应的版本，然后再下面官网给出了具体的安装命令，使用`rpm`和`yum`来进行安装。
 
@@ -2980,11 +2980,11 @@ Now your Zabbix server is up and running!
 
 即可进入Zabbix页面，在首次打开的时候，会进入设置页面，如图：
 
-![1571993951841](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175338.png)
+![1571993951841](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175338.png)
 
 **点击下一步，会检查相应的设置是否都正常**
 
-![1571994018126](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175341.png)
+![1571994018126](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175341.png)
 
 如果一切正常，点击下一步。
 
@@ -2992,7 +2992,7 @@ Now your Zabbix server is up and running!
 
 **配置DB连接**
 
-![1571994069689](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175344.png)
+![1571994069689](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175344.png)
 
 按具体情况填写即可
 
@@ -3000,7 +3000,7 @@ Now your Zabbix server is up and running!
 
 **配置Server细节**
 
-![1571994111921](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175347.png)
+![1571994111921](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175347.png)
 
 
 
@@ -3012,11 +3012,11 @@ Now your Zabbix server is up and running!
 
 检查确认没有问题就下一步
 
-![1571994206902](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175349.png)
+![1571994206902](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175349.png)
 
 **配置完成**
 
-![1571994221531](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175351.png)
+![1571994221531](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175351.png)
 
 
 
@@ -3028,7 +3028,7 @@ Now your Zabbix server is up and running!
 
 如下图：
 
-![1571994287036](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175354.png)
+![1571994287036](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175354.png)
 
 现在是一个崭新的zabbix等待我们去探索。
 
@@ -3149,7 +3149,7 @@ export GF_AUTH_GOOGLE_CLIENT_SECRET=newS3cretKey
 
 只需要配置如下内容即可:
 
-![1573635500521](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/26/20221026175713.png)
+![1573635500521](Linux%E7%B3%BB%E7%BB%9F%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85(%E9%BB%91%E9%A9%AC).assets/20221026175713.png)
 
 并登陆mysql, 执行:
 

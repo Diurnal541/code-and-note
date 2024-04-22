@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hugh</title>
+</head>
+<body>
+    Congratulation!Next!
+    @app.route('/hugh', method = ['PUT'])
+    def get_flag():
+        data = request.json
+        if data:
+            return pickle.loads(base64.b64decode(data["payload"]))
+        return "Wrong"
+    except:
+        return "ARE you sure?"
+</body>
+</html>
+<!--你要的东西在F1@g里面-->

@@ -1,0 +1,11 @@
+version: "3"
+services:
+    web:
+        build: ../
+        # image: test
+        ports:
+         - "8080:80"
+        environment:
+            - FLAG=flag{you_find_it!}
+            - FLAG_TABLE=flag_table
+            - FLAG_COLUMN=flagcolumn

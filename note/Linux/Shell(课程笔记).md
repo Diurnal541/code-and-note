@@ -1,18 +1,18 @@
 ### 一、Shebang 
 
-![image-20231103170950626](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103170950626.png)
+![image-20231103170950626](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103170950626.png)
 
 ### 二、执行shell脚本的方式
 
-![image-20231103172005818](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103172005818.png)
+![image-20231103172005818](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103172005818.png)
 
 ### 三、shell和运维
 
-![image-20231103172212589](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103172212589.png)
+![image-20231103172212589](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103172212589.png)
 
 ### 四、脚本语言
 
-![image-20231103172405762](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103172405762.png)
+![image-20231103172405762](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103172405762.png)
 
 **shell语言定义的变量，数据类型默认都是字符串**
 
@@ -39,17 +39,17 @@ echo $a
 
 read -p 提示信息 变量名
 示例:
-![image-20231103184721233](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103184721233.png)
+![image-20231103184721233](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103184721233.png)
 
-![image-20231103184730215](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103184730215.png)
+![image-20231103184730215](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103184730215.png)
 
 ### 九、删除变量(unset语法)(了解)
 
 unset 变量名
 
-![image-20231103185544581](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103185544581.png)
+![image-20231103185544581](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103185544581.png)
 
-![image-20231103185624630](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103185624630.png)
+![image-20231103185624630](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103185624630.png)
 
 ### 十、条件判断句(if)
 
@@ -92,11 +92,11 @@ fi
 
 a=10,b=20
 
-![image-20231103190525449](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103190525449.png)
+![image-20231103190525449](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103190525449.png)
 
 原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和expr,expr最常用
 
-![image-20231103190815127](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20231103190815127.png)
+![image-20231103190815127](Shell(%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0).assets/image-20231103190815127.png)
 
 注意，*容易被识别为通配符，要使它的含义为乘号，需要加反斜杠\\\*
 

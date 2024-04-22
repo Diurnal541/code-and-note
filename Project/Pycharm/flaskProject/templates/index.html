@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Small Challenge</title>
+</head>
+<body>
+<form action="/bigmouse" method="post">
+    <tr><th>用户名：</th><td><input type="text" name="username" autocomplete="off"></td></tr>
+    <tr><th>密码：</th><td><input type="text" name="password" autocomplete="off"></td></tr>
+    <input style="width:100px" type="submit" value="Submit"/><br>
+    <tr><td>/bigmouse?mouse=</td></tr>
+</form>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+</body>
+</html>
+<!--I suggest you check out the secret page-->
+<!--ban = ['_','.','\'','"','request','[',']','+',]-->

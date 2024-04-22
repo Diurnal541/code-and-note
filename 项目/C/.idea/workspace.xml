@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3793eae2-dfc5-42b2-9384-075ca91acd2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Code/C_C++/.idea/C_C++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Code/PHP/.idea/PHP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Code/Python/.idea/Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Code/Python/send_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day11 前端开发/gx_day11/.idea/gx_day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day12 前端开发/gx_day12/.idea/gx_day12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day13 前端开发/gx_day13/.idea/gx_day13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day13 前端开发/gx_day13_demo/.idea/gx_day13_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14/.idea/gx_day14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14_web/.idea/gx_day14_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day14 MySQL数据库/代码/gx_day14_website/.idea/gx_day14_website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day15 初识Django/代码/mysite2/.idea/mysite2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day16 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day17 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day18 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day19 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/Python最新Web开发-课件/day20 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day11 前端开发/gx_day11/.idea/gx_day11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day12 前端开发/gx_day12/.idea/gx_day12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day13 前端开发/gx_day13/.idea/gx_day13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day13 前端开发/gx_day13_demo/.idea/gx_day13_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14/.idea/gx_day14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14_web/.idea/gx_day14_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day14 MySQL数据库/代码/gx_day14_website/.idea/gx_day14_website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day15 初识Django/代码/mysite2/.idea/mysite2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day16 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day17 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day18 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day19 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Python/py-web笔记/课堂笔记/day20 Django开发/代码/day16/.idea/day16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Web/Python漏洞/flask_code/.idea/flask_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../note/Web/Python漏洞/python_code_audit/.idea/python_code_audit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/max_gys_min_gbs.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/max_gys_min_gbs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/output/temp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/output/temp1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/output/temp2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/output/temp2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/temp1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/temp1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/temp1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/temp1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/temp2.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/temp2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/C_C++/temp2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/C_C++/temp2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/Python/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/Python/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Code/Python/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Code/Python/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PHP网盘/src/php/connect_db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../PHP网盘/src/php/connect_db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/BurpSuite/Decoder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/CTF/CTF笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/CTF/CTF笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Docker/虚拟化与容器作业.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Docker/虚拟化与容器作业.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Git/Git笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Git/Git笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/HTML_CSS/HTML基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/HTML_CSS/HTML基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Linux/Linux系统软件安装(黑马).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Linux/Linux系统软件安装(黑马).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Linux/Linux课程笔记(黑马).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Linux/Linux课程笔记(黑马).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Linux/Linux课程笔记.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Linux/Shell(课程笔记).md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Linux/Shell(课程笔记).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Python/Python笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../note/Python/Python笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Python/python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/Kali渗透.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/SQL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/W1R3S靶机.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/Web前置技能.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/nmap使用指南.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/sqli-labs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/信息收集.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../note/Web/图解HTTP彩色版.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.1" />
+  </component>
+  <component name="ProjectId" id="2eS6ljLWlyZhX1VqoQAklycOhH6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3793eae2-dfc5-42b2-9384-075ca91acd2d" name="Changes" comment="" />
+      <created>1711885784493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711885784493</updated>
+      <workItem from="1711885786315" duration="1857000" />
+      <workItem from="1712067625197" duration="12000" />
+      <workItem from="1713440070406" duration="507000" />
+      <workItem from="1713440588031" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

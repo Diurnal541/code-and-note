@@ -68,7 +68,7 @@ print(type(''啦啦啦'')) ->输出 <class 'str'>
 
 * 不可使用关键字
 
-  ![image-20231211213056854](C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20231211213056854.png)
+  ![image-20231211213056854](Python%E7%AC%94%E8%AE%B0.assets/image-20231211213056854.png)
 
 ## 7.运算符
 
@@ -527,3 +527,76 @@ user_info(name = 'Tom', age = 18, id = 110)
 ```
 
 **参数是“键=值”的情况下，所有的“键=值”都会被kwargs接受，同时根据“键=值”==组成字典==**
+
+# Python的requests模块
+
+使用流程：
+
+- 指定url
+- 基于requests模块发送请求
+- 获取响应对象中的数据值
+- 持久化存储（不是必须的）
+
+```py
+#1. 导包
+import requests
+#2. 指定url
+url = "https://www.baidu.com"
+#3. 使用GET方法发送请求，该方法会返回一个响应对象
+response = requests.get(url=url)
+#4. 获取响应数据
+print(response.status_code)  # 打印状态码
+print(response.url)          # 打印请求url
+print(response.headers)      # 打印响应头头信息
+print(response.text)         #以文本形式打印网页源码
+ 
+#保存数据
+response.encoding = 'utf-8'  #指定编码格式，不然打开乱码
+text = response.text
+with open('./2.html','w',encoding='utf-8') as f:
+    f.write(text)
+```
+
+## requests请求方法
+
+上面的案例requests发送了一个GET请求方法，除此之外还有其他的请求方法。最常用的就是GET和POST方法。
+
+```py
+res = requests.get ()
+res = requests.post ()
+res = requests.put ()
+res = requests.delete ()
+res = requests.head ()
+res = requests.options ()
+```
+
+且在指定方法发送请求的时候，有时候还需要在请求方法括号中requests.get(url=url, xx = xx)指定一些参数，如下
+
+|        方法        |           参数名字           |
+| :----------------: | :--------------------------: |
+|      HTTP头部      |           headers            |
+|      GET参数       |            params            |
+|      POST参数      |             data             |
+|        文件        |            files             |
+|      Cookies       |           cookies            |
+|     重定向处理     | allow_redirects = False/True |
+|        超时        |           timeout            |
+|      证书验证      |     verify = False/True      |
+| 工作流（延迟下载） |     stream = False/True      |
+|      事件挂钩      |  hooks = dict(response = )   |
+|      身份验证      |            auth =            |
+|        代理        |          proxies =           |
+
+## requests响应对象属性
+
+在上面爬取百度首页时，response = requests.get(url=url)其返回的是一个响应对象，而如果我们想要获取具体的数据比如响应码或者网页源码时，就需要通过指定响应对象的属性进行获取。如response.status_code获取响应码
+
+```
+获取请求url                           res.url
+状态码                                res.status_code
+响应数据（以字符串形式）                res.text 
+返回的是一个原生字符串，是bytes类型     res.content
+查看服务器响应头                       res.headers
+查看cookie                            res.cookies
+```
+

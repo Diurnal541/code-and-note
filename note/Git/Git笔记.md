@@ -265,7 +265,7 @@ eaadf4e385e865d25c48e7ca9c8395c3f7dfaef0 wrote a readme file
 
 每提交一个新版本，实际上Git就会把它们自动串成一条时间线。如果使用可视化工具查看Git历史，就可以更清楚地看到提交历史的时间线：
 
-![git-log-timeline](https://www.liaoxuefeng.com/files/attachments/919019707114272/0)
+![git-log-timeline](Git%E7%AC%94%E8%AE%B0.assets/0.jpeg)
 
 好了，现在我们启动时光穿梭机，准备把`readme.txt`回退到上一个版本，也就是`add distributed`的那个版本，怎么做呢？
 
@@ -390,7 +390,7 @@ Git和其他版本控制系统如SVN的一个不同之处就是有暂存区的�
 
 就是你在电脑里能看到的目录，比如我的`learngit`文件夹就是一个工作区：
 
-![working-dir](https://www.liaoxuefeng.com/files/attachments/919021113952544/0)
+![working-dir](Git%E7%AC%94%E8%AE%B0.assets/0-17133361314763.png)
 
 #### 版本库（Repository）
 
@@ -398,7 +398,7 @@ Git和其他版本控制系统如SVN的一个不同之处就是有暂存区的�
 
 Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支`master`，以及指向`master`的一个指针叫`HEAD`。
 
-![git-repo](https://www.liaoxuefeng.com/files/attachments/919020037470528/0)
+![git-repo](Git%E7%AC%94%E8%AE%B0.assets/0-17133361349436.jpeg)
 
 分支和`HEAD`的概念我们以后再讲。
 
@@ -457,7 +457,7 @@ Changes to be committed:
 
 现在，暂存区的状态就变成这样了：
 
-![git-stage](https://www.liaoxuefeng.com/files/attachments/919020074026336/0)
+![git-stage](Git%E7%AC%94%E8%AE%B0.assets/0-17133361379599.jpeg)
 
 所以，`git add`命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行`git commit`就可以一次性把暂存区的所有修改提交到分支。
 
@@ -478,7 +478,7 @@ nothing to commit, working tree clean
 
 现在版本库变成了这样，暂存区就没有任何内容了：
 
-![git-stage-after-commit](https://www.liaoxuefeng.com/files/attachments/919020100829536/0)
+![git-stage-after-commit](Git%E7%AC%94%E8%AE%B0.assets/0-171333614036412.jpeg)
 
 ### 小结
 
@@ -807,11 +807,11 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴`id_rsa.pub`文件的内容：
 
-<img src="https://www.liaoxuefeng.com/files/attachments/919021379029408/0" alt="github-addkey-1" style="zoom:200%;" />
+<img src="Git%E7%AC%94%E8%AE%B0.assets/0-171333614807315.png" alt="github-addkey-1" style="zoom:200%;" />
 
 点“Add Key”，你就应该看到已经添加的Key：
 
-![github-addkey-2](https://www.liaoxuefeng.com/files/attachments/919021395420160/0)
+![github-addkey-2](Git%E7%AC%94%E8%AE%B0.assets/0-171333615015418.png)
 
 为什么GitHub需要SSH Key呢？因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
 
@@ -833,11 +833,11 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的仓库：
 
-<img src="https://www.liaoxuefeng.com/files/attachments/919021631860000/0" alt="github-create-repo-1" style="zoom:200%;" />
+<img src="Git%E7%AC%94%E8%AE%B0.assets/0-171333615238221.png" alt="github-create-repo-1" style="zoom:200%;" />
 
 在Repository name填入`learngit`，其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Git仓库：
 
-<img src="https://www.liaoxuefeng.com/files/attachments/919021652277920/0" alt="github-create-repo-2" style="zoom:200%;" />
+<img src="Git%E7%AC%94%E8%AE%B0.assets/0-171333615470124.png" alt="github-create-repo-2" style="zoom:200%;" />
 
 目前，在GitHub上的这个`learngit`仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
 
@@ -872,7 +872,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样：
 
-<img src="https://www.liaoxuefeng.com/files/attachments/919021675995552/0" alt="github-repo" style="zoom:200%;" />
+<img src="Git%E7%AC%94%E8%AE%B0.assets/0-171333615717627.png" alt="github-repo" style="zoom:200%;" />
 
 从现在起，只要本地作了提交，就可以通过命令：
 
@@ -942,11 +942,11 @@ $ git remote rm origin
 
 首先，登陆GitHub，创建一个新的仓库，名字叫`gitskills`：
 
-![github-init-repo](https://www.liaoxuefeng.com/files/attachments/919021808263616/0)
+![github-init-repo](Git%E7%AC%94%E8%AE%B0.assets/0-171333616000030.png)
 
 我们勾选`Initialize this repository with a README`，这样GitHub会自动为我们创建一个`README.md`文件。创建完毕后，可以看到`README.md`文件：
 
-![github-init-repo-2](https://www.liaoxuefeng.com/files/attachments/919021836828288/0)
+![github-init-repo-2](Git%E7%AC%94%E8%AE%B0.assets/0-171333616435633.png)
 
 现在，远程库已经准备好了，下一步是用命令`git clone`克隆一个本地库：
 
@@ -984,7 +984,7 @@ Git支持多种协议，包括`https`，但`ssh`协议速度最快。
 
 如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，结果，你既学会了Git又学会了SVN！
 
-![learn-branches](https://www.liaoxuefeng.com/files/attachments/919021987875136/0)
+![learn-branches](Git%E7%AC%94%E8%AE%B0.assets/0-171333616760336.png)
 
 分支在实际中有什么用呢？假设你准备开发一个新功能，但是需要两周才能完成，第一周你写了50%的代码，如果立刻提交，由于代码还没写完，不完整的代码库会导致别人不能干活了。如果等代码全部写完再一次提交，又存在丢失每天进度的巨大风险。
 
@@ -1149,7 +1149,7 @@ Switched to branch 'master'
 
 切换回`master`分支后，再查看一个`readme.txt`文件，刚才添加的内容不见了！因为那个提交是在`dev`分支上，而`master`分支此刻的提交点并没有变：
 
-![git-br-on-master](https://www.liaoxuefeng.com/files/attachments/919022533080576/0)
+![git-br-on-master](Git%E7%AC%94%E8%AE%B0.assets/0-171333617382539.png)
 
 现在，我们把`dev`分支的工作成果合并到`master`分支上：
 
@@ -1469,7 +1469,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 可以看到，不使用`Fast forward`模式，merge后就像这样：
 
-![git-no-ff-mode](https://www.liaoxuefeng.com/files/attachments/919023225142304/0)
+![git-no-ff-mode](Git%E7%AC%94%E8%AE%B0.assets/0-171333618082342.png)
 
 ### 分支策略
 
@@ -1483,7 +1483,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 所以，团队合作的分支看起来就像这样：
 
-![git-br-policy](https://www.liaoxuefeng.com/files/attachments/919023260793600/0)
+![git-br-policy](Git%E7%AC%94%E8%AE%B0.assets/0-171333618282045.png)
 
 ### 小结
 
@@ -1931,7 +1931,7 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 Git有一种称为rebase的操作，有人把它翻译成“变基”。
 
-![rebase](https://www.liaoxuefeng.com/files/attachments/1216294032394112/l)
+![rebase](Git%E7%AC%94%E8%AE%B0.assets/l.jpeg)
 
 先不要随意展开想象。我们还是从实际问题出发，看看怎么把分叉的提交变成直线。
 
@@ -2338,17 +2338,17 @@ Gitee企业版正在优惠中：
 
 使用Gitee和使用GitHub类似，我们在Gitee上注册账号并登录后，需要先上传自己的SSH公钥。选择右上角用户头像 -> 菜单“修改资料”，然后选择“SSH公钥”，填写一个便于识别的标题，然后把用户主目录下的`.ssh/id_rsa.pub`文件的内容粘贴进去：
 
-![gitee-add-ssh-key](https://www.liaoxuefeng.com/files/attachments/1163452910422880/l)
+![gitee-add-ssh-key](Git%E7%AC%94%E8%AE%B0.assets/l-171333620219750.jpeg)
 
 点击“确定”即可完成并看到刚才添加的Key：
 
-![gitee-key](https://www.liaoxuefeng.com/files/attachments/1163453163108928/l)
+![gitee-key](Git%E7%AC%94%E8%AE%B0.assets/l-171333620572053.jpeg)
 
 如果我们已经有了一个本地的git仓库（例如，一个名为learngit的本地库），如何把它关联到Gitee的远程库上呢？
 
 首先，我们在Gitee上创建一个新的项目，选择右上角用户头像 -> 菜单“控制面板”，然后点击“创建项目”：
 
-![gitee-new-repo](https://www.liaoxuefeng.com/files/attachments/1163453517527296/l)
+![gitee-new-repo](Git%E7%AC%94%E8%AE%B0.assets/l-171333620755156.jpeg)
 
 项目名称最好与本地库保持一致：
 
@@ -2477,7 +2477,7 @@ $ git config --global color.ui true
 
 这样，Git会适当地显示不同的颜色，比如`git status`命令：
 
-![git-color](https://www.liaoxuefeng.com/files/attachments/919059629641312/0)
+![git-color](Git%E7%AC%94%E8%AE%B0.assets/0-171333621165859.png)
 
 文件名就会标上颜色。
 
@@ -2678,7 +2678,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 来看看`git lg`的效果：
 
-![git-lg](https://www.liaoxuefeng.com/files/attachments/919059728302912/0)
+![git-lg](Git%E7%AC%94%E8%AE%B0.assets/0-171333621647862.png)
 
 为什么不早点告诉我？别激动，咱不是为了多记几个英文单词嘛！
 

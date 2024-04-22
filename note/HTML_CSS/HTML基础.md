@@ -420,7 +420,7 @@ HTML\<bdo>元素定义双流向覆盖
 
 浏览器可能会这样显示：
 
-![表格中的空单元格](https://www.w3school.com.cn/i/table_td_empty.gif)
+![表格中的空单元格](HTML%E5%9F%BA%E7%A1%80.assets/table_td_empty.gif)
 
 **注意：**这个空的单元格的边框没有被显示出来。为了避免这种情况，在单元格中添加一个空格占位符，就可以将边框显示出来
 
